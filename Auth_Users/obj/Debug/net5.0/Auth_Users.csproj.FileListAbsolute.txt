@@ -1,0 +1,16 @@
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\bin\Debug\net5.0\Auth_Users.exe
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\bin\Debug\net5.0\Auth_Users.deps.json
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\bin\Debug\net5.0\Auth_Users.runtimeconfig.json
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\bin\Debug\net5.0\Auth_Users.runtimeconfig.dev.json
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\bin\Debug\net5.0\Auth_Users.dll
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\bin\Debug\net5.0\ref\Auth_Users.dll
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\bin\Debug\net5.0\Auth_Users.pdb
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\obj\Debug\net5.0\Auth_Users.csproj.AssemblyReference.cache
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\obj\Debug\net5.0\Auth_Users.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\obj\Debug\net5.0\Auth_Users.AssemblyInfoInputs.cache
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\obj\Debug\net5.0\Auth_Users.AssemblyInfo.cs
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\obj\Debug\net5.0\Auth_Users.csproj.CoreCompileInputs.cache
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\obj\Debug\net5.0\Auth_Users.dll
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\obj\Debug\net5.0\ref\Auth_Users.dll
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\obj\Debug\net5.0\Auth_Users.pdb
+C:\Users\Я\source\repos\Auth_Users\Auth_Users\obj\Debug\net5.0\Auth_Users.genruntimeconfig.cache
