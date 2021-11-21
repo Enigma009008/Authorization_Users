@@ -17,6 +17,11 @@ namespace Auth_Users.Model
             Username = username;
             Password = password;
         }
-   }
+
+        internal static object FirstOrDefault(Func<object, bool> p)
+        {
+            throw new NotImplementedException();
+        }
+    }
 
 }

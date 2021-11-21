@@ -1,23 +1,26 @@
 ﻿using Auth_Users.Model;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace Auth_Users
 {
     class Program
     {
-        public static string username;
-        public static string password;
-
-        private static List<DataUsers> _DataUsers { get; set; }
+        public static string username { get; set; }
+        public static string password { get; set; }
+        public static byte count { get; set; }
+       
         static void Main(string[] args)
         {
 
-            GetInfo();
+            while (count != 3)
+            {
 
 
-            _DataUsers = new List<DataUsers>
+                GetInfo();
+                ObservableCollection<DataUsers> Users = new ObservableCollection<DataUsers>
             {
                 new DataUsers(username:"Murad", password: "123"),
                 new DataUsers(username:"Admin", password: "666"),
@@ -25,15 +28,23 @@ namespace Auth_Users
 
             };
 
-            var auth_users = _DataUsers.FirstOrDefault(x => x.Username == username && x.Password == password);
+                var auth_users = Users.FirstOrDefault(x => x.Username == username && x.Password == password);
 
-            if (auth_users == null)
-            {
-                Console.WriteLine("Неверные данные,попробуйте заново");
-            }
-            else
-            {
-                Console.WriteLine("Авторизация прошла успешно!");
+                if (auth_users != null)
+                {
+                    Console.WriteLine("Здравствуйте, вы успешно авторизовались! ");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Пользователь не найден!");
+                    count++;
+                    if (count == 3)
+                    {
+                        Console.WriteLine("Ваши попытки закончились!");
+                        break;
+                    }
+                }
             }
         }
 
